@@ -24,6 +24,16 @@
 <label for=“bio”>Biography:</label>
 <textarea id=“bio” name=“user_bio”></textarea>
 
+<label for=“job>Job role:>/label>
+<select id=“job” name=“user_job”>
+<optgroup label=“Web”>
+<option value=“frontend_developer”>Front-End Developer</option>
+<option value=“php_developer”>PHP Developer</option>
+</optgroup>
+<optgroup label=“Mobile”>
+<option value=“python_developer”>Python Developer</option>
+</optgroup>
+
 </fieldset>
 
 <button type=“submit>Sign Up</button>
